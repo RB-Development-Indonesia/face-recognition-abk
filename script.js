@@ -20,8 +20,8 @@ function startWebcam() {
 let label, foto1, foto2;
 
 // id na masih hardcode kudu na make query params
-const apiUrl = 'https://rb.olipiskandar.com/api/edocs/abk/detail?id=15197';
-// const apiUrl = 'https://rb.olipiskandar.com/api/edocs/abk/detail?id=999999';
+// const apiUrl = 'https://rb.olipiskandar.com/api/edocs/abk/detail?id=15197';
+const apiUrl = 'https://rb.olipiskandar.com/api/edocs/abk/detail?id=999999';
 
 fetch(apiUrl).then((response) => {
   if (response.ok) {
